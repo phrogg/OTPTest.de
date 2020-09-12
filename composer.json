@@ -1,0 +1,6 @@
+{
+    "require": {
+        "chillerlan/php-qrcode": "^3.3",
+        "spomky-labs/otphp": "^10.0"
+    }
+}
