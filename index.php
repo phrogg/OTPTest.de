@@ -106,6 +106,7 @@ $otp->setLabel('OTPTest.de');
         For your convenience we created a cookie that lasts one day.
         </div>
         <div class="Box-body">
+            <h3 class="f1-light">Verify a token</h3>
             <form action="" method="GET">
                 <input type="text" minlength="6" maxlength="6" id="otp" size="5" name="otp" placeholder="<?php echo $_GET['otp']; ?>" required/>
                 <input type="submit" value="Verify"/>
@@ -137,7 +138,7 @@ $otp->setLabel('OTPTest.de');
         </div>
         </div>
         <br><img class="emoji" alt="wrench" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> with <img class="emoji" alt="heart" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> in <img class="emoji" alt="de" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">
-        <br><a href="https://paypal.me/proggenbuck" target="_BLANK"><img src="https://img.shields.io/badge/Donate-Here-green.svg" /></a>
+        <br><br><a href="https://paypal.me/proggenbuck" target="_BLANK"><img src="https://img.shields.io/badge/Donate-Here-green.svg" /></a>
         </body>
     <script>
         // post code block
