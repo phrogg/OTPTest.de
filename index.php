@@ -105,11 +105,11 @@ $otp->setLabel('OTPTest.de');
     <?php } ?>
         For your convenience we created a cookie that lasts one day.
         </div>
-        <div class="Box-body">
-            <h3 class="f1-light">Verify a token</h3>
+        <div class="Box-body" style="padding-top: 10px;">
+            <!-- <h3 class="f1-light">Verify a token</h3> -->
             <form action="" method="GET">
                 <input type="text" minlength="6" maxlength="6" id="otp" size="5" name="otp" placeholder="<?php echo $_GET['otp']; ?>" required/>
-                <input type="submit" value="Verify"/>
+                <input type="submit" value="Verify Token"/>
             </form>
             <?php
             if(isset($_GET['otp'])) {
