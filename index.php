@@ -24,7 +24,8 @@
 // Remove the cookie with the oldSecret
 function del_cookie() { //src: https://stackoverflow.com/a/57644049/5638397
     document.cookie = 'secret=; Max-Age=0; path=/; domain=' + location.host;
-    location.reload();
+    window.location = window.location.href.split("?")[0]; // when changing the secret, don't check the last otp
+    //location.reload();
 }
 
 // Copy OTP and Secret to Clipboard
@@ -131,7 +132,7 @@ $otp->setLabel('OTPTest.de');
             <img src="https://img.shields.io/github/issues/phrogg/OTPTest.de.svg" />
             <br>Based on:<br>
             <a href="https://github.com/chillerlan/php-qrcode" target="_BLANK"><img src="https://img.shields.io/badge/chillerlan-QRCode-blue.svg" /></a>
-            <a href="https://github.com/Spomky-Labs/otphp/" target="_BLANK"><img src="https://img.shields.io/badge/SpomkyLabs-otphp-orange.svg" /></a>
+            <a href="https://github.com/Spomky-Labs/otphp/" target="_BLANK"><img src="https://img.shields.io/badge/SpomkyLabs-otphp-orange.svg" /></a><br>
             <a href="https://www.iconfinder.com/icons/1930259/green_hole_key_keyhole_icon" target="_BLANK"><img src="https://img.shields.io/badge/Keyhole-favicon-green.svg" /></a>
         </div>
         </div>
