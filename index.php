@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- META -->
 <meta charset="utf-8"> <!-- TODO: Better meta tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OTPTest.de</title>
+<meta name="title" content="OTPTest.de">
+<meta name="description" content="This site is for everyone who wants to quickly test an OTP, like TOTP. I build it for myself while testing OTP Applications.">
+<meta name="keywords" content="otp,test,totp,otptest,totptest,security,login,2fa,qrcode">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="author" content="Phil Roggenbuck (phrogg)">
+<!-- /META -->
 <link href="https://unpkg.com/primer/build/build.css" rel="stylesheet">
 <link rel="icon" href="favicon.ico" type="image/gif" sizes="256x256">
 <style>
