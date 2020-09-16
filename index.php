@@ -2,16 +2,37 @@
 <html lang="en">
 <head>
 <!-- META -->
-<meta charset="utf-8"> <!-- TODO: Better meta tags -->
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OTPTest.de</title>
-<meta name="title" content="OTPTest.de">
+<title>Test your OTP Application, with OTPTest.de!</title>
 <meta name="description" content="This site is for everyone who wants to quickly test an OTP, like TOTP. I build it for myself while testing OTP Applications.">
 <meta name="keywords" content="otp,test,totp,otptest,totptest,security,login,2fa,qrcode">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
 <meta name="author" content="Phil Roggenbuck (phrogg)">
+
+<!-- Thanks to heymeta.com -->
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Test your OTP Application, with OTPTest.de!">
+<meta itemprop="description" content="This site is for everyone who wants to quickly test an OTP, like TOTP. I build it for myself while testing OTP Applications.">
+<meta itemprop="image" content="https://otptest.de/prev.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://otptest.de">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Test your OTP Application, with OTPTest.de!">
+<meta property="og:description" content="This site is for everyone who wants to quickly test an OTP, like TOTP. I build it for myself while testing OTP Applications.">
+<meta property="og:image" content="https://otptest.de/prev.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Test your OTP Application, with OTPTest.de!">
+<meta name="twitter:description" content="This site is for everyone who wants to quickly test an OTP, like TOTP. I build it for myself while testing OTP Applications.">
+<meta name="twitter:image" content="https://otptest.de/prev.png">
+
+<!-- Meta Tags Generated via http://heymeta.com -->
+
 <!-- /META -->
 <link href="https://unpkg.com/primer/build/build.css" rel="stylesheet">
 <link rel="icon" href="favicon.ico" type="image/gif" sizes="256x256">
