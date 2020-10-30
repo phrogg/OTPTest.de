@@ -173,7 +173,7 @@ $otp->setLabel('OTPTest.de');
             }
             ?>
         </div>
-        <div class="Box-body">
+        <div class="Box-body" style="padding-bottom: 5px;padding-top: 5px;">
             <img src="https://img.shields.io/github/release/phrogg/OTPTest.de.svg?logo=github" />
             <img src="https://img.shields.io/github/license/phrogg/OTPTest.de.svg" />
             <img src="https://img.shields.io/github/issues/phrogg/OTPTest.de.svg" />
@@ -183,12 +183,8 @@ $otp->setLabel('OTPTest.de');
             <a href="https://www.iconfinder.com/icons/1930259/green_hole_key_keyhole_icon" target="_BLANK"><img src="https://img.shields.io/badge/Keyhole-favicon-green.svg" /></a>
         </div>
     </div>
-    <br><img class="emoji" alt="wrench" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> with <img class="emoji" alt="heart" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> in <img class="emoji" alt="de" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png">
-    <br><br><a href="https://paypal.me/proggenbuck" target="_BLANK"><img src="https://img.shields.io/badge/Donate-Here-green.svg" /></a>
+    <div style="margin-top: 5px;"><img class="emoji" alt="wrench" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"> with <img class="emoji" alt="heart" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> in <img class="emoji" alt="de" height="<?php echo $emojiSize; ?>" width="<?php echo $emojiSize; ?>" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e9-1f1ea.png"></div>
+    <br><a href="https://paypal.me/proggenbuck" target="_BLANK"><img src="https://img.shields.io/badge/Donate-Here-green.svg" /></a>
 </body>
-<script>
-    // post code block
-    // prgUpdate(); TODO: fix time
-</script>
 
 </html>
